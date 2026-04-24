@@ -1,3 +1,3 @@
 # Assets
 
-Store downloaded images and attachments here when you want a fixed shared location for source assets.
+如果你希望附件和图片有固定落点，就把下载的图片和附件放在这里。

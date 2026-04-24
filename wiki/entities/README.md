@@ -1,3 +1,3 @@
 # Entities
 
-Create pages here for durable entities such as people, companies, tools, books, products, and places.
+这里放人物、公司、工具、书籍、产品、地点等“实体型”页面。

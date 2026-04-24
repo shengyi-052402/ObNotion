@@ -1,3 +1,3 @@
 # Sources
 
-Store processed source notes here. These are source-of-truth records derived from raw inputs and should remain stable once created.
+这里存放整理完成的来源笔记。它们是从原始资料抽取出来的稳定记录，不应随意改写原意。

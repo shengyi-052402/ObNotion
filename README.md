@@ -1,24 +1,24 @@
 # ObNotion
 
-An Obsidian vault organized as a persistent LLM-maintained wiki.
+一个按“LLM 持续维护的个人 Wiki”方式组织的 Obsidian 仓库。
 
-## Structure
+## 目录结构
 
-- `raw/inbox/`: unprocessed captures and incoming material
-- `raw/sources/`: processed source notes
-- `raw/assets/`: downloaded images and attachments
-- `wiki/`: synthesized knowledge pages
-- `system/templates/`: note templates
-- `AGENTS.md`: maintenance rules for Codex and other LLM agents
+- `raw/inbox/`：待处理的原始资料
+- `raw/sources/`：整理后的来源笔记
+- `raw/assets/`：下载的图片和附件
+- `wiki/`：沉淀后的知识页
+- `system/templates/`：模板文件
+- `AGENTS.md`：给 Codex/其他代理的维护规则
 
-## Core Files
+## 核心文件
 
-- `wiki/overview.md`: high-level map of the vault
-- `wiki/index.md`: catalog of maintained wiki pages
-- `wiki/log.md`: chronological operation log
+- `wiki/总览.md`：仓库总览
+- `wiki/索引.md`：知识页目录
+- `wiki/日志.md`：维护日志
 
-## Workflow
+## 使用流程
 
-1. Add source material to `raw/inbox/`.
-2. Process it into `raw/sources/` and relevant pages under `wiki/`.
-3. Update `wiki/index.md` and append to `wiki/log.md`.
+1. 把网页剪藏、文章、摘录或笔记放进 `raw/inbox/`。
+2. 将其整理到 `raw/sources/`，并同步更新 `wiki/` 下的相关知识页。
+3. 每次有实质更新时，同步维护 `wiki/索引.md` 和 `wiki/日志.md`。

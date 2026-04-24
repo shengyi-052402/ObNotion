@@ -1,3 +1,3 @@
 # Inbox
 
-Place newly captured articles, notes, web clips, transcripts, or PDFs here before they are processed into the wiki.
+将新收集的文章、剪藏、摘录、访谈、PDF 等资料先放在这里，等待后续整理。

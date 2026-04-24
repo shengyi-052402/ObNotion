@@ -1,6 +1,7 @@
 # ObNotion Wiki Schema
 
 This vault is maintained as a persistent wiki, not a loose note dump.
+Default output language is Simplified Chinese unless the user explicitly asks otherwise.
 
 ## Architecture
 
@@ -15,14 +16,15 @@ There are three layers:
 - `raw/inbox/`: newly captured sources waiting for processing
 - `raw/sources/`: processed source notes kept as source-of-truth records
 - `raw/assets/`: shared downloaded attachments and images
-- `wiki/overview.md`: top-level map of the subject area
-- `wiki/index.md`: catalog of wiki pages with one-line descriptions
-- `wiki/log.md`: append-only operational log
+- `wiki/总览.md`: top-level map of the subject area
+- `wiki/索引.md`: catalog of wiki pages with one-line descriptions
+- `wiki/日志.md`: append-only operational log
 - `wiki/entities/`: pages for people, organizations, tools, books, products
 - `wiki/concepts/`: pages for concepts, methods, claims, themes
 - `wiki/topics/`: broader syntheses, comparisons, and ongoing analyses
 - `wiki/queries/`: answers worth preserving from chat sessions
-- `system/templates/`: templates for consistent page creation
+- `system/templates/来源笔记模板.md`: template for source notes
+- `system/templates/知识页模板.md`: template for wiki pages
 
 ## Operating Rules
 
@@ -33,6 +35,8 @@ There are three layers:
 - Use markdown links with vault-absolute paths when possible because the vault is configured for absolute links.
 - Do not delete user-authored raw material unless explicitly asked.
 - Avoid empty stub pages. Create a page only when it can hold durable value.
+- When creating new notes, prefer Chinese filenames and Chinese section headings.
+- Summaries, indexes, and logs should be written in concise Chinese.
 
 ## Standard Workflows
 
@@ -40,17 +44,17 @@ There are three layers:
 
 1. Read a source from `raw/inbox/` or an explicitly provided URL/file.
 2. If useful, create or update a source note in `raw/sources/`.
-3. Update `wiki/overview.md` if the source changes the high-level picture.
+3. Update `wiki/总览.md` if the source changes the high-level picture.
 4. Update relevant pages under `wiki/entities/`, `wiki/concepts/`, and `wiki/topics/`.
-5. Update `wiki/index.md`.
-6. Append an entry to `wiki/log.md`.
+5. Update `wiki/索引.md`.
+6. Append an entry to `wiki/日志.md`.
 
 ### Query
 
-1. Read `wiki/index.md` first to locate relevant pages.
+1. Read `wiki/索引.md` first to locate relevant pages.
 2. Read the minimum set of pages needed to answer.
 3. If the answer produces durable synthesis, save it under `wiki/queries/` and add it to the index.
-4. Log the operation in `wiki/log.md` when it materially changes the vault.
+4. Log the operation in `wiki/日志.md` when it materially changes the vault.
 
 ### Lint
 
@@ -72,13 +76,13 @@ Periodically check for:
 
 ## Index Format
 
-`wiki/index.md` is grouped by section. Each entry should look like:
+`wiki/索引.md` is grouped by section. Each entry should look like:
 
 - `[Page Name](path/to/page.md)` - one-line summary
 
 ## Log Format
 
-Each entry in `wiki/log.md` should begin with:
+Each entry in `wiki/日志.md` should begin with:
 
 `## [YYYY-MM-DD] operation | title`
 

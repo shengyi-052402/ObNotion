@@ -1,3 +1,3 @@
 # Concepts
 
-Create pages here for concepts, methods, claims, frameworks, and recurring themes.
+这里放概念、方法、观点、框架和反复出现的主题。

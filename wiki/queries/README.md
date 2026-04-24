@@ -1,3 +1,3 @@
 # Queries
 
-Store durable answers and analyses here when a chat result is worth preserving in the wiki.
+当一次对话产出了值得长期保留的回答或分析，就把它沉淀到这里。
