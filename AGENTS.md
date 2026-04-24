@@ -13,7 +13,7 @@ There are three layers:
 
 ## Directory Conventions
 
-- `raw/inbox/`: newly captured sources waiting for processing
+- `Clippings/`: newly captured sources waiting for processing
 - `raw/sources/`: processed source notes kept as source-of-truth records
 - `raw/assets/`: shared downloaded attachments and images
 - `wiki/总览.md`: top-level map of the subject area
@@ -42,7 +42,7 @@ There are three layers:
 
 ### Ingest
 
-1. Read a source from `raw/inbox/` or an explicitly provided URL/file.
+1. Read a source from `Clippings/` or an explicitly provided URL/file.
 2. If useful, create or update a source note in `raw/sources/`.
 3. Update `wiki/总览.md` if the source changes the high-level picture.
 4. Update relevant pages under `wiki/entities/`, `wiki/concepts/`, and `wiki/topics/`.
