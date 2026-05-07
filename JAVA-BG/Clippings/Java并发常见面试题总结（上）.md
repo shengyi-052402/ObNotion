@@ -135,6 +135,7 @@ Java 线程在运行的生命周期中的指定时刻只可能处于下面 6 种
 - TERMINATED：终止状态，表示该线程已经运行完毕。
 
 线程在生命周期中并不是固定处于某一个状态而是随着代码的执行在不同状态之间切换。
+[file-20260507110922824](JAVA-BG/Clippings/assets/Java并发常见面试题总结（上）/file-20260507110922824.png)
 
 Java 线程状态变迁图(图源： [挑错 |《Java 并发编程的艺术》中关于线程状态的三处错误](https://mp.weixin.qq.com/s/0UTyrJpRKaKhkhHcQtXAiA))：
 
