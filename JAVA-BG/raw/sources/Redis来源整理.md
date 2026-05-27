@@ -26,7 +26,7 @@ tags:
 ## 相关实体
 
 - Redis
-- itheima
+- [itheima](wiki/entities/itheima.md)
 - 小林 coding
 
 ## 相关概念

@@ -29,7 +29,7 @@ tags:
 ## 相关实体
 
 - MySQL
-- itheima
+- [itheima](wiki/entities/itheima.md)
 - JavaGuide
 - 小林 coding
 

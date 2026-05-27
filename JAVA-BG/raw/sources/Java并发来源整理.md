@@ -30,7 +30,7 @@ tags:
 ## 相关实体
 
 - Java
-- itheima
+- [itheima](wiki/entities/itheima.md)
 - JavaGuide
 
 ## 相关概念

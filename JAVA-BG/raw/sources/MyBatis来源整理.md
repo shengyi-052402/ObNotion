@@ -26,7 +26,7 @@ tags:
 ## 相关实体
 
 - MyBatis
-- itheima
+- [itheima](wiki/entities/itheima.md)
 - JavaGuide
 
 ## 相关概念

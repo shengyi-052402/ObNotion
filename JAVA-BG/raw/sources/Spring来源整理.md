@@ -34,7 +34,7 @@ tags:
 ## 相关实体
 
 - Spring
-- itheima
+- [itheima](wiki/entities/itheima.md)
 - Spring Boot
 - Spring MVC
 - JavaGuide
