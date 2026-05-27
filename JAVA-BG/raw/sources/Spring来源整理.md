@@ -23,10 +23,11 @@ tags:
 - [Spring 中的设计模式详解](Clippings/Spring 中的设计模式详解.md) - Spring 中常见设计模式
 - [SpringBoot 自动装配原理详解](Clippings/SpringBoot 自动装配原理详解.md) - 自动装配与 Starter
 - [Async 注解原理分析](Clippings/Async 注解原理分析.md) - `@Async` 机制与使用建议
+- [框架篇面试题-参考回答](Clippings/框架篇面试题-参考回答.md) - Spring 核心机制（Bean生命周期、循环依赖、事务失效）的高频实战问答补充
 
 ## 关键信息
 
-- 这一组资料既有全景问答，也有单点深挖。
+- 这组资料具备了完备的全景问答与单点深挖体系。新入库的 `框架篇面试题-参考回答` 在实战落地层面，深度剖析了 Spring Bean 单例线程安全与作用域、使用三级缓存解决循环依赖的内部逻辑（ObjectFactory的作用）、事务失效的 3 大典型场景、Bean 的生命周期步骤以及 SpringBoot 自动配置原理，提供了极高参考价值的回答范式。
 - 可以围绕 IoC、AOP、事务、自动装配、异步执行这五个主线逐步深化。
 - 与 MyBatis、MySQL、Java 并发关系密切。
 
