@@ -26,6 +26,7 @@ tags:
 ## 相关实体
 
 - MyBatis
+- itheima
 - JavaGuide
 
 ## 相关概念

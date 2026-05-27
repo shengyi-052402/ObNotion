@@ -26,6 +26,7 @@ tags:
 ## 相关实体
 
 - Redis
+- itheima
 - 小林 coding
 
 ## 相关概念

@@ -56,7 +56,7 @@ elasticsearch:7.12.1
 
 在浏览器中输入：http://192.168.200.130:9200 (按照自己的ip访问)即可看到elasticsearch的响应结果：
 
-![image-20230522101505429](ELK搭建.assets/image-20230522101505429.png)
+
 
 ## 2 docker安装kibana
 
@@ -101,7 +101,7 @@ docker exec -it logstash /bin/bash
 
 找到config目录中的logstatsh.yml文件
 
-![image-20230522102944443](ELK搭建.assets/image-20230522102944443.png)
+
 
 修改里面的内容，设置es服务的地址，如下
 
@@ -121,7 +121,7 @@ docker exec -it logstash /bin/bash
 
 找到pipeline目录中的logstatsh.conf文件
 
-![image-20230522103615291](ELK搭建.assets/image-20230522103615291.png)
+
 
 修改如下，可以设置数据输入的方式，也可以设置把数据存放到哪里
 
@@ -244,33 +244,33 @@ logging:
 
 然后打开kibana，找到索引管理
 
-![image-20230522105548828](ELK搭建.assets/image-20230522105548828.png)
+
 
 可以直接查看已创建的日志索引
 
-![image-20230522111836857](ELK搭建.assets/image-20230522111836857.png)
+
 
 ### 5.2 添加索引模式
 
 如果想用kibana方便的查看日志的数据，可以添加索引模式，如下图
 
-![image-20230522112008818](ELK搭建.assets/image-20230522112008818.png)
+
 
 点击创建索引模式，输入想要管理的索引名称
 
-![image-20230522112052902](ELK搭建.assets/image-20230522112052902.png)
+
 
 点击下一步，添加筛选的字段，一般都是时间戳字段，最后点击创建索引模式
 
-![image-20230522112132304](ELK搭建.assets/image-20230522112132304.png)
+
 
 ### 5.3 检索日志
 
 打开Discover
 
-![image-20230522112429309](ELK搭建.assets/image-20230522112429309.png)
+
 
 检索日志，选择不同的索引，可以按照不同的字段检索，或者在输入框直接输入内容，也是可以的
 
-![image-20230522112526401](ELK搭建.assets/image-20230522112526401.png)
+
 
